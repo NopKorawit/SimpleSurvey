@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Survey</title>
+</head>
+
+<body>
+    <h1 id="title">Survey</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <form id="survey-form">
+        <label id="name-label">
+            <p>Name:</p>
+        </label>
+        <input id="name" type="text" placeholder="Enter your name" required>
+        <label id="email-label">
+            <p>Email:</p>
+        </label>
+        <input id="email" type="email" placeholder="Enter your email" required>
+        <label id="number-label">
+            <p>Phone number:</p>
+        </label>
+        <input id="number" type="number" placeholder="Enter your phone number" min="0" max="9999999999" required>
+        <label id="Dropdown-label">
+            <p>career:</p>
+        </label>
+        <select id="dropdown">
+            <option value="default">Nothing</option>
+            <option value="Reason 1">Teacher</option>
+            <option value="Reason 2">Nurse</option>
+            <option value="Reason 3">Docter</option>
+            <option value="Reason 4">Developer</option>
+            <option value="Reason 5">Another</option>
+        </select>
+
+        <p>which one do you like ?</p>
+        <input type="checkbox" name="career" value="1">Teacher</input>
+        <br>
+        <input type="checkbox" name="career" value="2">Nurse</input>
+        <br>
+        <input type="checkbox" name="career" value="3">Docter</input>
+        <br>
+        <input type="checkbox" name="career" value="4">Developer</input>
+
+        <p>Which one you like the most?</p>
+        <input type="radio" name="career" value="1">Teacher</input>
+        <br>
+        <input type="radio" name="career" value="2">Nurse</input>
+        <br>
+        <input type="radio" name="career" value="3">Docter</input>
+        <br>
+        <input type="radio" name="career" value="4">Developer</input>
+        <br>
+        <br>
+        <textarea id="comment" rows="5" cols="30">Add your comment here.</textarea>
+        <br>
+        <input id="submit" type="submit">
+    </form>
+</body>
+
+</html>

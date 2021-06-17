@@ -1,0 +1,75 @@
+body{
+    text-align: center;
+    font-family: sans-serif;
+    background-image:linear-gradient(to bottom right ,#33FF98,#33C6FF );
+}
+#title{
+  font-size:40px;
+}
+#description{
+  font-size:15px;
+}
+#survey-form{
+    background-color: rgba(0, 0, 0,0.4);
+    width: 600px;
+    padding: 20px;
+    margin: auto;
+    border-radius: 20px;
+    text-align: left;
+    color:white;
+
+}
+#name{
+  width:580px;
+  padding:10px;
+  border-radius: 10px;
+  border:none;
+}
+#email{
+  width:580px;
+  padding:10px;
+  border-radius: 10px;
+  border:none;
+}
+#number{
+  width:580px;
+  padding:10px;
+  border-radius: 10px;
+  border:none;
+}
+#dropdown{
+  width:600px;
+  padding:10px;
+  border-radius: 10px;
+  border:none;
+}
+#comment{
+  width:580px;
+  padding:10px;
+  border-radius: 10px;
+  border:none;
+}
+#submit{
+  width:600px;
+  padding:15px;
+  border-radius: 10px;
+  margin-top:3%;
+  border:none;
+  
+}
+#comment{
+  width:580px;
+  padding:10px;
+  border-radius: 10px;
+  border:none;
+}
+#submit:hover{
+  width:600px;
+  padding:15px;
+  border-radius: 10px;
+  margin-top:3%;
+  border:none;
+  background-color:green;
+  color:white;
+  font-size: 17px;
+}
